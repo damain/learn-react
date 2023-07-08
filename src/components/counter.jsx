@@ -1,12 +1,12 @@
+import Tip from "../Tip";
+
 function Counter() {
   return (
     <div>
-      <div>💡 we should use state to store the number </div>
+      <Tip>we should use state to store the number </Tip>
       <div>Number goes here:</div>
       <hr />
-      <div className="tip">
-        <em>💡What does the button need to do to trigger the state change?</em>
-      </div>
+      <Tip>What does the button need to do to trigger the state change?</Tip>
       <div>Button goes here:</div>
     </div>
   );
