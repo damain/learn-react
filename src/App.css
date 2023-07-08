@@ -1,6 +1,15 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+  font-size: 1.05rem;
+}
 .tip {
   background-color: rgb(28, 27, 27);
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 7px;
   color: white;
+  margin: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
